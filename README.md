@@ -9,7 +9,7 @@ Transactify is a modern, Firebase-powered web application designed to help small
 
 ## 🚀 Project Phases
 
-### ✅ Phase 1: Invoice Generator MVP
+### ✅ Phase 1: Invoice Generator MVP (phase/1-invoice-core)
 - 🔐 User Authentication (Firebase Auth)
 - 👥 Client Management (Add/Edit/Delete)
 - 🧾 Invoice Creation (Form-based UI)
@@ -18,14 +18,14 @@ Transactify is a modern, Firebase-powered web application designed to help small
 - 📊 Dashboard: Recent invoices, totals
 - ☁️ Firebase Firestore for data
 - 🌐 Firebase Hosting for deployment
-### 📈 Phase 2: Invoice Dashboard & Analytics
+### 📈 Phase 2: Invoice Dashboard & Analytics(phase/2-invoice-dashboard-and-analytics)
 - 📅 Monthly/Yearly Revenue Charts
 - 💰 Payment Status Tracking (Paid/Unpaid)
 - 📤 Export CSV Reports
 - 🔍 Search & Filter Invoices
 - 👨‍👩‍👧 Multi-user support (Admin/Staff)
 
-### 🛒 Phase 3: POS Lite System
+### 🛒 Phase 3: POS Lite System (phase/3-pos-lite-system)
 - 📦 Product Catalog (Add/Edit/Delete)
 - 🧾 Quick Billing Interface (Cart + Checkout)
 - 🧾 Receipt Generation (PDF or Print)
@@ -33,7 +33,7 @@ Transactify is a modern, Firebase-powered web application designed to help small
 - 👥 Customer Management
 - 🔄 Firebase Realtime DB for live updates
 
-### 🏪 Phase 4: Full POS System
+### 🏪 Phase 4: Full POS System (phase/4-full-pos-system)
 - 🏬 Multi-branch support
 - 🔐 Role-based access (Cashier, Manager, Admin)
 - 📷 Barcode Scanning (optional)
@@ -56,4 +56,10 @@ Transactify is a modern, Firebase-powered web application designed to help small
 
 ---
 
+## Git Practices
 
+### Branch Nameing Conventions
+
+- **Phase Branches** : phase/<number>-<short-name>
+- **Feature Branches** : phase/<number>/feature/<module>-<short-description>
+- **Bugfix Branches** : phase/<number>/bugfix/<module>-<issue-description>
