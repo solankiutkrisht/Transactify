@@ -60,6 +60,6 @@ Transactify is a modern, Firebase-powered web application designed to help small
 
 ### Branch Nameing Conventions
 
-- **Phase Branches** : phase/<number>-<short-name>
-- **Feature Branches** : phase/<number>/feature/<module>-<short-description>
-- **Bugfix Branches** : phase/<number>/bugfix/<module>-<issue-description>
+- **Phase Branches** : phase/number-short-name
+- **Feature Branches** : phase/number/feature/module-short-description
+- **Bugfix Branches** : phase/number/bugfix/module-issue-description
