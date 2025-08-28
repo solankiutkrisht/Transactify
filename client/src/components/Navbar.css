@@ -1,0 +1,28 @@
+.navbar-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    background-color: white;
+}
+.navbar-logo{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.navbar-logo > h1 {
+    margin: 0;
+    text-transform: uppercase;
+    
+}
+.navbar-logo > svg {
+    width: 24px;
+    margin-right: 8px;
+    height: 24px;
+}
+.navbar-icon{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}

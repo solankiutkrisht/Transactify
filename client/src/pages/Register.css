@@ -1,0 +1,118 @@
+.register-page {
+  align-items: center;
+}
+.register-container {
+  @media screen and (min-width: 650px) and (max-width: 1100px) {
+    width: 500px;
+    margin: 0 15%;
+    margin-top: 15%;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 500px;
+    margin: 0 25%;
+    margin-top: 7%;
+  }
+  @media screen and (min-width: 1400px) {
+    width: 500px;
+    margin: 0 30%;
+    margin-top: 7%;
+  }
+  @media screen and (max-width: 650px) and (min-height: 700px) {
+    margin-top: 25%;
+  }
+  @media screen and (max-width: 650px) and (max-height: 700px) {
+    margin-top: 10%;
+  }
+  background-color: white;
+  border-radius: 20px;
+  padding: 50px;
+  text-align: center;
+}
+.register-form {
+  width: 100%;
+}
+.single-input-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 16px;
+}
+/* .single-input-div > label {
+} */
+.double-input-div {
+  width: 100%;
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+}
+.double-input-div > .single-input {
+  width: 49%;
+}
+.mobile-number-input {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.5;
+}
+.mobile-number-input > div {
+  width: 29%;
+  display: flex;
+}
+.mobile-number-input > div > span {
+  line-height: 1.5;
+  border-color: rgba(196, 205, 213, 0.7);
+  background-clip: padding-box;
+  background-color: #fff;
+  border: 0.0625rem solid rgba(231, 234, 243, 0.7);
+  border-radius: 0.3125rem;
+  color: #1e2022;
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 400;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  padding: 8px 10px;
+}
+.mobile-number-input > div > input {
+  width: 70%;
+  line-height: 1.5;
+}
+.mobile-number-input > input {
+  width: 69%;
+  line-height: 1.5;
+}
+.terms-and-condition-div {
+  display: flex;
+}
+
+.form-control {
+  line-height: 1.5;
+}
+.form-control:focus {
+  background-color: #fff;
+  border-color: rgba(140, 152, 164, 0.25);
+  box-shadow: 0 0 1rem 0 rgba(140, 152, 164, 0.25);
+  color: #1e2022;
+  outline: 0;
+}
+.otp-input-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.otp-input-div > input {
+  width: 30px;
+  height: 30px;
+  padding: 8px;
+  text-align: center;
+  border-color: #5a5a5a;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

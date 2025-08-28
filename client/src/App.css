@@ -1,0 +1,31 @@
+input{
+    border-color: rgba(196, 205, 213, .7);
+    
+    background-clip: padding-box;
+    background-color: #fff;
+    border: .0625rem solid rgba(231, 234, 243, .7);
+    border-radius: .3125rem;
+    color: #1e2022;
+    display: block;
+    font-size: .875rem;
+    font-weight: 400;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    padding: 8px;
+}
+button {
+    background-color: #758480;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #758480;
+    padding: 8px;
+    cursor: pointer;
+}
+button:hover{
+        box-shadow: 0 4px 11px #75817e;
+}
+button:active {
+    background-color: #5a5a5a;
+}
+.w-100{
+    width: 100% !important;
+}
